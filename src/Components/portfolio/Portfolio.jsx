@@ -46,7 +46,7 @@ const data = [
   {
     id: 6,
     image: IMG6,
-    title: "Simple Shooping Cadr",
+    title: "Simple Shooping Card",
     github: "https://github.com/ervinkacar1991/shopping_cart_app",
     demo: "https://simple-shopping-cart-ek.netlify.app",
   },
