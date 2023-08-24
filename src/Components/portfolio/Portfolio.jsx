@@ -39,7 +39,7 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: "Cryptho App ",
+    title: "Crypto App ",
     github: "https://github.com",
     demo: "https://my-crypt0-app.netlify.app/",
   },
