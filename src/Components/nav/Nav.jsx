@@ -12,8 +12,11 @@ function Nav() {
   return (
     <nav>
       <a
-        href="#"
-        onClick={() => setActiveNav("#")}
+        href="/#"
+        onClick={(e) => {
+          e.preventDefault(); // Spriječava stvarno navigiranje
+          setActiveNav("#");
+        }}
         className={activeNav === "#" ? "active" : ""}
       >
         <AiOutlineHome />
